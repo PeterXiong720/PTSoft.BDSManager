@@ -7,15 +7,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e9d06077-8893-4bcd-8536-d07c68d8c439" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager.WebApi/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager.WebApi/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager.WebApi/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager.WebApi/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PTSoft.BDSManager/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PTSoft.BDSManager.WebApi/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PTSoft.BDSManager.WebApi/Controllers/AccountController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PTSoft.BDSManager.WebApi/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PTSoft.BDSManager.WebApi/Controllers/WeatherForecastController.cs" afterDir="false" />
@@ -111,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654243436134</updated>
-      <workItem from="1654243441841" duration="437000" />
+      <workItem from="1654243441841" duration="1858000" />
     </task>
     <servers />
   </component>
