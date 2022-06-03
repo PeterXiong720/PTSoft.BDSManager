@@ -1,0 +1,7 @@
+/PTSoft.BDSManager/DebugServer/
+
+PTSoft.BDSManager/obj/
+PTSoft.BDSManager.WebApi/obj/
+
+PTSoft.BDSManager/bin/
+PTSoft.BDSManager.WebApi/bin/
