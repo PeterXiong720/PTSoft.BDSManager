@@ -62,8 +62,8 @@ public class PluginService
                 select (item["name"]?.Value<string>(), item["browser_download_url"]?.Value<string>())).FirstOrDefault();
             if(string.IsNullOrEmpty(downloadUrl))
                 return;
-            var response = await HttpClientManager.GetStreamAsync(downloadUrl
-                .Replace("https://github.com", "https://hub.fastgit.xyz"));
+            var response = await HttpClientManager.GetStreamAsync(downloadUrl);
+                //.Replace("https://github.com", "https://hub.fastgit.xyz"));
             var dirInfo = Directory.CreateDirectory("downloads");
             var savePath = Path.Combine(dirInfo.FullName, name!);
             await using var fileStream = File.Create(savePath);
@@ -79,6 +79,10 @@ public class PluginService
         try
         {
             var response = JArray.Parse(responseJson);
+            var latest = pluginVersion;
+            var latestTargetName = String.Empty; 
+            JToken? assets = null;
+            var hasUpdate = false;
             foreach (var release in response!)
             {
                 var targetName = release["tag_name"]!.Value<string>()!;
@@ -86,13 +90,15 @@ public class PluginService
                 if (!match.Success) continue;
 
                 var version = new System.Version(match.Value);
-                if (version.CompareTo(pluginVersion) <= 0) continue;
-
-                var assets = release["assets"];
-                return (false, targetName, assets?.Values<JObject>())!;
+                if (version.CompareTo(latest) > 0)
+                {
+                    hasUpdate = true;
+                    latest = version;
+                    latestTargetName = targetName;
+                    assets = release["assets"];
+                }
             }
-
-            return (true, string.Empty, null);
+            return (!hasUpdate, latestTargetName, assets?.Values<JObject>())!;
         }
         catch (JsonReaderException)
         {

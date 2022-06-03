@@ -2,7 +2,6 @@
 using LLNET.LL;
 using LLNET.Logger;
 using PTSoft.BDSManager.Services;
-using Version = LLNET.LL.Version;
 
 namespace PTSoft.BDSManager;
 
@@ -30,7 +29,7 @@ public static class Program
         LLAPI.RegisterPlugin(
             "PTSoft.BDSManager",
             "",
-            new Version(1, 0, 1),
+            new LLNET.LL.Version(1, 0, 2),
             "https://github.com/PeterXiong720/PTSoft.BDSManager",
             "AGPLv3",
             "https://github.com/PeterXiong720/PTSoft.BDSManager/"
