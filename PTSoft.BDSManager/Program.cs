@@ -31,9 +31,9 @@ public static class Program
             "PTSoft.BDSManager",
             "",
             new Version(1, 0, 1),
-            "https://github.com/PeterXiong720/BDSManager.git",
+            "https://github.com/PeterXiong720/PTSoft.BDSManager",
             "AGPLv3",
-            "https://github.com/PeterXiong720/BDSManager/"
+            "https://github.com/PeterXiong720/PTSoft.BDSManager/"
         );
 
         RegisterListener();
