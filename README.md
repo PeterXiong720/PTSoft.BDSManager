@@ -6,12 +6,12 @@
 
 registerPlugin示例：
 ```javascript
-JavaScript：
+// JavaScript
 // 以JS为例，lua和C++亦然
 const META_DATA = {
-Git:'https://github.com/xxx/xxx/',
-Foo:'bar',
-Xxx:'...'
+    Git:'https://github.com/xxx/xxx/',
+    SomethingOther:'...',
+    ...
 };
 ll.registerPlugin('ExamplePlugin', 'introduction', [1, 9, 19810], META_DATA);
 ```
